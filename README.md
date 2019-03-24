@@ -38,6 +38,8 @@
 ![Image text](https://github.com/ToTkr2/Lab2/blob/master/img/2.10.png)  
 ![Image text](https://github.com/ToTkr2/Lab2/blob/master/img/2.9.png)  
 如图所示，vi进程号为2320，父进程为2319，其中各项数据分别为进程号，父进程号，创建时间，控制终端，运行时间，进程名  
+使用top -P命令将所有进程按CPU使用率由高到低排列  
+![Image text](https://github.com/ToTkr2/Lab2/blob/master/img/2.13.png) 
 
 ---
 3.使用fork系统调用，创建如下进程树，并使每个进程输出自己的ID和父进程的ID。观察进程的执行顺序和运行状态的变化。  
